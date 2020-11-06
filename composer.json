@@ -1,0 +1,21 @@
+{
+  "name": "ritaswc/dingtalk-robot",
+  "description": "Easy to send dingtalk robot message",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Charles",
+      "email": "ritaswc@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ritaswc\\DingtalkRobot\\": "src/"
+    }
+  }
+}
