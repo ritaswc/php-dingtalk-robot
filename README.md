@@ -6,7 +6,7 @@ Easy to send dingtalk robot message
 composer require ritaswc/dingtalk-robot
 ```
 
-## Send Text Message
+## Send Message
 ```php
 $accessToken = '2d1bf0b300...';
 $secret = 'SEC7a90caf...';
