@@ -120,7 +120,7 @@ class DingtalkRobot
                 'title'          => (string)$title,
                 'text'           => (string)$markdownText,
                 'btnOrientation' => (string)$btnOrientation,
-                'btns'           => (string)$buttons,
+                'btns'           => (array)$buttons,
             ],
         ]);
     }
@@ -133,8 +133,10 @@ class DingtalkRobot
     public function sendFeedCard($links)
     {
         return $this->request([
-            'msgtype' => 'feedCard',
-            'links'   => (array)$links,
+            'msgtype'  => 'feedCard',
+            'feedCard' => [
+                'links' => (array)$links
+            ],
         ]);
     }
 
