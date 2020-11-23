@@ -76,6 +76,4 @@ $robot->sendFeedCard([
 MIT
 
 ## Sponsor
-![wechatpay](https://raw.githubusercontent.com/ritaswc/zx-ip-address/master/wechatpay.png)
-
-![alipay](https://raw.githubusercontent.com/ritaswc/zx-ip-address/master/alipay.png)
+![QrCode](https://blog.yinghualuo.cn/blog/2020/11/sponsor.png)
