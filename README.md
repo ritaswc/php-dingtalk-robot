@@ -1,5 +1,5 @@
 # php-dingtalk-robot
-Easy to send dingtalk robot message
+Easy to send dingtalk robot message without any other PHP libraries
 
 ## Usage
 ```shell script
@@ -70,7 +70,7 @@ $robot->sendFeedCard([
 [Charles的小星球](https://blog.yinghualuo.cn)
 
 ## Dingtalk Document
-[自定义机器人开发](https://ding-doc.dingtalk.com/document#/org-dev-guide/qf2nxq)
+[自定义机器人开发](https://developers.dingtalk.com/document/app/custom-robot-access)
 
 ## License
 MIT
